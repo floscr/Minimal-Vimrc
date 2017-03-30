@@ -59,6 +59,9 @@ set smartcase     " Ignore case if search pattern is all lowercase, case-sensiti
 set splitbelow    " Split new window below current window
 set splitright    " Split new window right of current window
 
+" Netrw
+let g:netrw_banner=0 " Hide the banner
+
 " -----------------------------------------------------------------------------
 " Indentation
 " -----------------------------------------------------------------------------
