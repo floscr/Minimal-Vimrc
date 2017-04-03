@@ -15,6 +15,11 @@ if has('syntax') && !exists('g:syntax_on')
   syntax enable
 endif
 
+" Load local vimrc
+if filereadable(expand('~/.vimrc_local'))
+  source ~/.vimrc_local
+endif
+
 " Settings based on :help nvim-defaults
 set autoindent
 set autoread
